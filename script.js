@@ -16,7 +16,7 @@ const library = [
   },
 ];
 
-const numberOfBooksRead = () => {
+const numberOfBooksRead = (library) => {
   // write your code here
 	const ReadBooks = 0;
 	for(let i=0; i<library.length; i++){
@@ -30,4 +30,4 @@ const numberOfBooksRead = () => {
 
 // Do not change the code below
 
-alert(numberOfBooksRead());
+alert(numberOfBooksRead(library));
